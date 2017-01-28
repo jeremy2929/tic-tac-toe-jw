@@ -110,7 +110,7 @@ $(function(){
         if (check === "xxx" || check === "ooo"){
           // get one value of 3 in a row to see which is winner
           winningPlayer = check.substring(0,1);
-          //--------------------------------------------------------------------------------------
+          //----------------------------------------------------------------------------------------
           // convert the position of first of 3 in a row in large string back to a 9 square board
           var winPosition = reverseBoard[y];
           // build the HTML alt segment based on first of 3 in a row
@@ -119,7 +119,7 @@ $(function(){
           var $highlightElement=$body.find(winHTML);
           // add class for winning square to highlight bold in red
           $highlightElement.addClass("square--won");
-          //--------------------------------------------------------------------------------------
+          //----------------------------------------------------------------------------------------
           // convert the position of second of 3 in a row in large string back to a 9 square board
           var winPosition = reverseBoard[y+1];
           // build the HTML alt segment based on second of 3 in a row
