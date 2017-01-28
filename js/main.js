@@ -146,7 +146,7 @@ $(function(){
             for (var j = 0; j < 10; j++){
               if (boardArray[j]==="o"){
                 // adjust value of array pointer to match element alt values
-                jj = j+1;
+                var jj = j+1;
                 // build HTML of alt values to find loser squares
                 var lostHTML = "[alt='"+jj+"']";
                 var $highlightElement=$body.find(lostHTML);
