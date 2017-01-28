@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.button{
+  margin-top: 20px;
+  margin-left: 615px;
+}
+
+.scoreArea{
+  font-size: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.square{
+  background-color: DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+}
+
+.square:nth-child(2){
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+}
+
+.square--x::before,
+.square--o::before {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: lighter;
+  width: 100px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.square--o::before {
+  content: "O";
+}
+
+.square--x::before {
+  content: "X";
+}
+
+.square--won::before {
+  font-weight: bold;
+  font-size: 120px;
+  color: red;
+}
+
+.square--lost::before {
+  opacity: 0.5;
+}
+
+.table{
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.table__row:nth-child(2){
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
