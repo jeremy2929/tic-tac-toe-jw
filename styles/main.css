@@ -79,25 +79,33 @@ body {
   .mainTitle{
     display: block;
     font-size: 8em;
-    margin-left: .8em;
-    width: 100%;
+    /*margin-left: .8em;*/
+    margin: 0 auto;
+    text-align: center;
+    width: 6em;
   }
 
   .button{
     background-color: lightgrey;
-    height: 5em;
-    margin: 0 auto;
+    display: block;
+    font-size: 3em;
+    height: 3em;
+    /*margin: 0 auto;
     margin-top: 1em;
     margin-left: 33em;
-    width: 10em;
+    width: 10em;*/
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    width: 5em;
   }
 
   .scoreArea{
-    font-size: 6em;
-    margin: .3em;
-    margin-left: .3em;
+    font-size: 5em;
+    /*margin: .3em;*/
+    margin: 0 auto;
     text-align: center;
-    width: 9em;
+    width: 8em;
   }
 
   .square{
