@@ -75,6 +75,11 @@ body {
 }
 
 @media screen and (max-width: 980px) {
+
+  .mainTitle{
+      width: 8em;
+  }
+
   .button{
     margin-left: 36em;
     width: 5.5em;
