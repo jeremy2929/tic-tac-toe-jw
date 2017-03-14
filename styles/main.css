@@ -77,7 +77,10 @@ body {
 @media screen and (max-width: 980px) {
 
   .mainTitle{
-      width: 8em;
+    display: block;
+    font-size: 5em;
+    margin-left: 2.5em;
+    width: 100%;
   }
 
   .button{
