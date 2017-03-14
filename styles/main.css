@@ -78,12 +78,51 @@ body {
 
   .mainTitle{
     display: block;
-    font-size: 5em;
-    margin-left: 4em;
+    font-size: 8em;
+    margin-left: .7em;
     width: 100%;
   }
 
   .button{
-    margin-left: 36em;
-    width: 5.5em;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-left: 23em;
+    width: 30em;
+  }
+
+  .scoreArea{
+    font-size: 6em;
+    margin: 1em;
+    margin-left: .2em;
+    text-align: center;
+    width: 9em;
+  }
+
+  .square{
+    background-color: DarkSeaGreen;
+    height: 16em;
+    width: 16em;
+  }
+
+  .square:nth-child(2){
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+  }
+
+  .square--x::before,
+  .square--o::before {
+    font-size: 16em;
+    line-height: 2em;
+    font-weight: lighter;
+    width: 2em;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+
+  .square--won::before {
+    font-weight: bold;
+    font-size: 16em;
+    color: red;
   }
