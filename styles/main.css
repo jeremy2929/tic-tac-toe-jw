@@ -114,9 +114,9 @@ body {
   .square--x::before,
   .square--o::before {
     font-size: 16em;
-    line-height: 2em;
+    line-height: 1em;
     font-weight: lighter;
-    width: 2em;
+    width: 1em;
     color: white;
     display: block;
     text-align: center;
