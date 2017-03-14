@@ -4,16 +4,18 @@ body {
 }
 
 .mainTitle{
+    display: block;
     font-size: 3em;
-    margin-left: 10.5em;
-    margin-top: 2em;
-    margin-bottom: 0;
-    width: 100%;
+    margin: 0 auto;
+    width: 5.5em;
 }
 
 .button{
-  margin-top: 20px;
-  margin-left: 615px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-left: 53.3em;
+  width: 10em;
 }
 
 .scoreArea{
@@ -71,3 +73,9 @@ body {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
 }
+
+@media screen and (max-width: 980px) {
+  .button{
+    margin-left: 36em;
+    width: 5.5em;
+  }
